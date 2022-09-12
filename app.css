@@ -88,7 +88,7 @@ body {
     color: #fff;
     background: #FF9D02;
     padding: 0.6em 1.8em;
-    transition: 1s all;
+    transition: 0.2s all;
 }
 
 #section1 .welcome-words a:hover {
@@ -137,6 +137,7 @@ body {
     display: flex;
     flex-direction: row;
     background: linear-gradient(50deg, #fff 50%, #FF9D02 50%);
+    margin-bottom: 2em;
 }
 
 #section2 .middle-image .rounded img {
@@ -185,7 +186,7 @@ body {
     color: #FF9D02;
     background: #fff;
     padding: 0.6em 1.8em;
-    transition: 1s all;
+    transition: 0.2s all;
 }
 
 #section2 .middle-words a:hover {
@@ -194,7 +195,7 @@ body {
 }
 
 #section3 {
-    padding-top: 4em;
+    padding-top: 3em;
 }
 
 #section3 h1 {
@@ -202,7 +203,12 @@ body {
     color: #232323;
     font-size: 34px;
     font-weight: 700;
-    line-height: 3;
+    line-height: 1;
+}
+
+
+#section3 h1 span {
+    color: #FF9D02;
 }
 
 #section3 .card {
@@ -210,14 +216,14 @@ body {
     border-radius: 2em;
 }
 
+#section3 .food {
+    margin-top: 2em;
+}
+
 #section3 .food img {
     width: 18rem;
     height: 18em;
     border-radius: 2em 2em 0 0;
-}
-
-#section3 h1 span {
-    color: #FF9D02;
 }
 
 #section3 .foods {
@@ -227,12 +233,174 @@ body {
     align-items: center;
 }
 
-#section3 .food {
-    margin-top: 2em;
+#section3 .food span {
+    color: #FF9D02;
+}
+
+#section3 .food button {
+    border: 1px solid #FF9D02;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #fff;
+    background: #FF9D02;
+    padding: 0.4em 1.2em;
+    transition: 0.2s all;
+}
+
+#section3 .food button:hover {
+    background-color: #fff;
+    color: #FF9D02;
+}
+
+#section3 .food h6 {
+    color: #232323;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 1;
+}
+
+#section4 {
+    padding-top: 4em;
+}
+
+#section4 h1 {
+    text-align: center;
+    color: #232323;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
 }
 
 
+#section4 h1 span {
+    color: #FF9D02;
+}
 
+#section4 .reasons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+#section4 .reason {
+    padding: 1.5em 1em;
+    margin: 1em;
+}
+
+#section4 .reason i {
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.5em;
+    width: 75px;
+    height: 75px;
+    font-size: 36px;
+    background-color: #f3e4ce;
+    color: #FF9D02;
+    margin-bottom: 2em;
+}
+
+#section4 .reason h2 {
+    color: #232323;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 1em;
+}
+
+#section4 .reason p {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+#section5 {
+    padding-top: 1em;
+}
+
+#section5 h1 {
+    text-align: center;
+    color: #232323;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+
+#section5 h1 span {
+    color: #FF9D02;
+}
+
+#section5 .customers {
+    margin-top: 3em;
+
+}
+
+#section5 .customer-profile {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2em;
+}
+
+#section5 .profile {
+    display: flex;
+    flex-direction: row;
+    margin: 1em;
+}
+
+#section5 .picha {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 2em;
+}
+
+#section5 .picha img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#section5 .customer-profile h2 {
+    color: #232323;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#section5 .customer-profile p {
+    color: #8E8E8E;
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+#section5 .customer-profile span {
+    color: #FF9D02;
+}
+
+
+#section5 .customer-food {
+    display: flex;
+    flex-direction: row;
+    background: linear-gradient(50deg, #fff 50%, #FF9D02 50%);
+    margin-bottom: 2em;
+}
+
+#section5 .customer-food .rounded img {
+    width: 300px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#section5 .customer-food .chill img {
+    width: 300px;
+}
 
 @media (min-width: 800px) {
     .navbar-brand {
@@ -322,5 +490,37 @@ body {
         justify-content: center;
         align-items: center;
     }
-   
+
+    #section3 .unique {
+        margin-top: 4em;
+    }
+
+    #section4 .reasons {
+        margin-top: 4em;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #section4 .unique {
+        background: #FFFFFF;
+        border: 2px solid #8E8E8E;
+        border-radius: 20px;
+    }
+
+    #section5 .customers {
+        margin-top: 3em;
+        margin-left: 4em;
+    }
+
+    #section5 .customer-food {
+        background: linear-gradient(50deg, #FF9D02 50%, #fff 50%);
+    }
+
+    #section5 .customer-food .rounded img {
+        border: 2px solid #FF9D02;
+    }
+
+
 }
