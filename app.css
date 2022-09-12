@@ -25,6 +25,10 @@ body {
     font-weight: 700;
 }
 
+#navbar .nav-item a:hover {
+    color: #fff;
+}
+
 #navbar .navbar-brand {
     font-size: 20px;
     font-weight: 500;
@@ -84,6 +88,12 @@ body {
     color: #fff;
     background: #FF9D02;
     padding: 0.6em 1.8em;
+    transition: 1s all;
+}
+
+#section1 .welcome-words a:hover {
+    color: #FF9D02;
+    background: #fff;
 }
 
 #section1 .welcome-image {
@@ -131,7 +141,7 @@ body {
 
 #section2 .middle-image .rounded img {
     width: 300px;
-    border: 2px solid #cd963e;
+    border: 2px solid #FF9D02;
     padding: 10px;
     border-radius: 50%;
 }
@@ -175,7 +185,54 @@ body {
     color: #FF9D02;
     background: #fff;
     padding: 0.6em 1.8em;
+    transition: 1s all;
 }
+
+#section2 .middle-words a:hover {
+    color: #fff;
+    background: #FF9D02;
+}
+
+#section3 {
+    padding-top: 4em;
+}
+
+#section3 h1 {
+    text-align: center;
+    color: #232323;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 3;
+}
+
+#section3 .card {
+    width: 18rem;
+    border-radius: 2em;
+}
+
+#section3 .food img {
+    width: 18rem;
+    height: 18em;
+    border-radius: 2em 2em 0 0;
+}
+
+#section3 h1 span {
+    color: #FF9D02;
+}
+
+#section3 .foods {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section3 .food {
+    margin-top: 2em;
+}
+
+
+
 
 @media (min-width: 800px) {
     .navbar-brand {
@@ -250,8 +307,20 @@ body {
         background: linear-gradient(50deg, #FF9D02 50%, #fff 50%);
     }
 
+    #section2 .middle-image .rounded img {
+        border: 2px solid #FF9D02;
+    }
+
     #section2 .middle-words {
         text-align: start;
         align-items: flex-start;
     }
+
+    #section3 .foods {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+   
 }
