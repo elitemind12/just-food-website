@@ -402,7 +402,83 @@ body {
     width: 300px;
 }
 
-@media (min-width: 800px) {
+#section6 .foots {
+    padding: 5em;
+}
+
+#section6 .foot {
+    margin-top: 2em;
+}
+
+#section6 .foot h2 {
+    color: #232323;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+#section6 .foot h2 span {
+    color: #FF9D02;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+#section6 .foot-icons {
+    margin: 1.5em 0;
+}
+
+
+#section6 .foot-icons span i {
+  color: #FF9D02;
+  margin-right: 0.8em;
+  font-size: 1.2em;
+}
+
+#section6 .foot p {
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+    margin-top: 2em;
+}
+
+#section6 .foot form {
+    margin-top: 2em;
+}
+
+#section6 .foot form input {
+   padding: 0.5em 0.5em;
+   width: 18rem;
+   border: 1px solid #FF9D02;
+   border-radius: 50px;
+}
+
+#section6 ::placeholder {
+    color: #8E8E8E;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    line-height: 2;
+}
+
+#section6 .foot form button {
+    border: 1px solid #FF9D02;
+    border-radius: 50px;
+    font-weight: 500;
+    color: #fff;
+    background: #FF9D02;
+    margin-top: 1.2em;
+    padding: 0.4em 1.2em;
+    transition: 0.2s all;
+ }
+
+ #section6 .foot form button:hover {
+    background-color: #fff;
+    color: #FF9D02;
+ }
+
+@media (min-width: 768px) {
     .navbar-brand {
         margin-left: 3em;
     }
@@ -522,5 +598,8 @@ body {
         border: 2px solid #FF9D02;
     }
 
-
+    #section6 .foot-image img {
+        margin-left: -5em;
+        margin-top: 1em;
+    }
 }
